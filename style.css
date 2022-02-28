@@ -510,6 +510,10 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+width : 200px;
+     max-width : 500px;
+ 
+
 }
 
 .scrollToTop {
@@ -1121,15 +1125,24 @@ input {
 
 .row_tableau {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .contact_adress {
+    color: rgba(255, 255, 255, .7)!important;
+    display: flex;
+   justify-content: center;
     font-size: 17px;
     line-height: 25px;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 /* footer */
+
+.titre_size{
+    font-size: 1.3em;
+}
 
 .social_tableau {
     display: flex;
@@ -1147,7 +1160,8 @@ input {
     }
 
     .row_tableau {
-        flex-direction: column;
+        /* flex-direction: column; */
+        justify-content: center;
     }
 }body {
     margin: 0;
@@ -1848,6 +1862,7 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    width: 200px;
 }
 
 .social {
@@ -2177,6 +2192,7 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
 }
 
 @media (max-width: 400px) {
