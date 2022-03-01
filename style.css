@@ -1744,6 +1744,7 @@ a[data-lightbox]:hover img {
 }
 
 .lightbox-caption {
+  text-align: center;
   padding: 20px;
   color: #fff;
   background: rgba(0, 0, 0, 0.5);
